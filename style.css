@@ -308,10 +308,37 @@ html::-webkit-scrollbar{
     cursor: pointer;
 }
 .f-content i:hover{
-    background: #e53937;
-    color: white;
-    border-radius: 5px;
+    background-image: linear-gradient(to bottom right , yellow, rgb(217, 86, 5));
 }
+
+ 
+.icon i{
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  .icon:hover i{
+    color: white;
+    animation: shake 1s;
+   
+  }
+  
+  @keyframes shake {
+    10%{
+      transform: rotate(15deg);
+    }
+    20%{
+      transform: rotate(-15deg);
+    }
+    30%{
+      transform: rotate(15deg);
+    }
+    40%{
+      transform: rotate(-15deg);
+    }
+  
+  }
+  
 .c-content{
     text-align: center;
 }
@@ -320,3 +347,11 @@ html::-webkit-scrollbar{
     color: #e53937;
     
 }
+
+
+
+
+
+
+  
+ 
